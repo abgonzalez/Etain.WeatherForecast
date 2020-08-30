@@ -21,7 +21,7 @@ Replace the weather state abbreviation (sn) in the image filename with the desir
 In order to get the app up and running, just follow the steps below:
 
 1. Clone the repo to your local development machine.
-2. Open a command prompt and go to the directory `WeatherForecast-master\Etain.WeatherForecast`.
+2. Open a command prompt and go to the directory `.\\Etain.WeatherForecast-master\\Etain.WeatherForecast`.
 3. Run `dotnet ef database update` to create the local database in your pc.
 4. Run `ddotnet run` to start the web.
 5. User can access to the web in http://localhost:5005 or https://localhost:500665. The first time, it's necessary to register the user and confirm the email. 
