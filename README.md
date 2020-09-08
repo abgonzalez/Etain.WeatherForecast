@@ -23,9 +23,10 @@ In order to get the app up and running, just follow the steps below:
 1. Clone the repo to your local development machine.
 2. Open a command prompt and go to the directory `.\\Etain.WeatherForecast-master\\Etain.WeatherForecast`.
 3. Run `dotnet ef database update` to create the local database in your pc.
-4. Run `ddotnet run` to start the web.
-5. User can access to the web in http://localhost:5005 or https://localhost:500665. The first time, it's necessary to register the user and confirm the email. 
-6. Now, you can see the weather forecast in Belfast for the next 5 days :-) 
+4. Go to the directory `.\\ClientApp` and run `npm install react-pull-to-refresh -S`
+5. Run `dotnet run` to start the web.
+6. User can access to the web in http://localhost:5005 or https://localhost:500665. The first time, it's necessary to register the user and confirm the email. 
+7. Now, you can see the weather forecast in Belfast for the next 5 days :-) 
 
 ## Tech Stack
 - Asp.Net Core 3.1
